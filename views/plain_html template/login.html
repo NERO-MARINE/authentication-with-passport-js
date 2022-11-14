@@ -1,0 +1,116 @@
+<form action="action_page.php" method="post">
+    <div class="imgcontainer">
+      <img src="/imgs/profile.png" alt="Avatar" class="avatar">
+    </div>
+  
+    <div class="container3">
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Username" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit">Login</button>
+      <!-- <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div> -->
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <input type="reset" class="resetbtn2" value="Clear Form">
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+        <span class="new">New? <a href="/signup">SignUp Here</a></span>
+    </div>
+  </form>
+
+
+  <!-- css -->
+
+  <!-- 
+   
+   /* For login */
+
+form {
+  border: 3px solid #f1f1f1;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Full-width inputs */
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.resetbtn2 {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  border: none;
+  color: white;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container3 {
+  padding: 40px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+span.new {
+    padding-top: 16px;
+  }
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .resetbtn2 {
+    width: 100%;
+  }
+} 
+
+ /* For login ends */
+
+   -->
